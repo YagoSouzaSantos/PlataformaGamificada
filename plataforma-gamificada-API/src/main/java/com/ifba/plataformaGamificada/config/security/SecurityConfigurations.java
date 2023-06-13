@@ -46,12 +46,16 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter impleme
                 .antMatchers(HttpMethod.GET, "/actuator/**").permitAll()
                 .antMatchers(HttpMethod.GET, "/niveis").permitAll()
                 .antMatchers(HttpMethod.GET, "/usuarios").permitAll()
+                .antMatchers(HttpMethod.GET, "/usuarios/*").permitAll()
                 .antMatchers(HttpMethod.GET, "/topicos").permitAll()
                 .antMatchers(HttpMethod.GET, "/topicos/*").permitAll()
                 .antMatchers(HttpMethod.GET, "/worldswizard/*").permitAll()
                 .antMatchers(HttpMethod.GET, "/activity/*").permitAll()
                 .antMatchers(HttpMethod.GET, "/activity/**").permitAll()
                 .antMatchers(HttpMethod.GET, "/phase").permitAll()
+                .antMatchers(HttpMethod.GET, "/phase/*").permitAll()
+                .antMatchers(HttpMethod.GET, "/phase/**").permitAll()
+
 
                 .antMatchers(HttpMethod.POST, "/auth").permitAll()
                 .antMatchers(HttpMethod.POST, "/usuarios").permitAll()
@@ -60,6 +64,9 @@ public class SecurityConfigurations extends WebSecurityConfigurerAdapter impleme
                 .antMatchers(HttpMethod.POST, "/imagens").permitAll()
                 .antMatchers(HttpMethod.POST, "/activity/*").permitAll()
                 .antMatchers(HttpMethod.POST, "/phase").permitAll()
+                .antMatchers(HttpMethod.POST, "/phase/**").permitAll()
+
+                .antMatchers(HttpMethod.PUT, "/usuarios/*").permitAll()
 
                 .anyRequest().authenticated()
                 .and().cors()

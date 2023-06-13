@@ -27,6 +27,7 @@ public class TokenService {
         return Jwts.builder()
                 .setIssuer("API Plataforma Gamificada")
                 .setSubject(logado.getId().toString())
+                .setId(logado.getTipoUsuario().toString())
                 .setIssuedAt(hoje)
                 .setExpiration(dataExpiracao)
                 .signWith(SignatureAlgorithm.HS256, secret)

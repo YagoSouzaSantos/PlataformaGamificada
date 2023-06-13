@@ -16,8 +16,7 @@ public class Activity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    private Phase phase ;
+    private Long phase;
 
     private String title;
 

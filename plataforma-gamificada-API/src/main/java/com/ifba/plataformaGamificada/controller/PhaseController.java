@@ -21,6 +21,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import javax.transaction.Transactional;
 import javax.validation.Valid;
 import java.net.URI;
+import java.util.List;
 import java.util.Optional;
 
 @RestController
@@ -51,14 +52,11 @@ public class PhaseController {
         return ResponseEntity.created(uri).body(new PhaseDTO(phase));
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity<PhaseDTO> detalhar(@PathVariable long id) {
-        Optional<Phase> phase = phaseRepository.findById(id);
-        if (phase.isPresent()) {
-            return ResponseEntity.ok(new PhaseDTO(phase.get()));
-        }
-        return ResponseEntity.notFound().build();
-
+    @GetMapping("/{world}")
+    public Page<PhaseDTO> getByWorld(@PathVariable int world, Pageable pageable) {
+        Page<Phase> phases = phaseRepository.findByWorld(world, pageable);
+        return phases.map(PhaseDTO::new);
     }
+
 
 }

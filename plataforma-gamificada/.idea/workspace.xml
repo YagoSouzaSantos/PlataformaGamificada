@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6df2234-2d3e-43f1-9506-b55eac54ea1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Estudos/Jasper/demo-jasper-spring/src/main/java/com/mballem/curso/jasper/spring/config/ConfiguracaoGenerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Estudos/Jasper/demo-jasper-spring/src/main/java/com/mballem/curso/jasper/spring/config/ConfiguracaoGenerica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Estudos/Jasper/demo-jasper-spring/src/main/java/com/mballem/curso/jasper/spring/controller/JasperController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Estudos/Jasper/demo-jasper-spring/src/main/java/com/mballem/curso/jasper/spring/controller/JasperController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Estudos/Jasper/demo-jasper-spring/src/main/java/com/mballem/curso/jasper/spring/service/JasperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Estudos/Jasper/demo-jasper-spring/src/main/java/com/mballem/curso/jasper/spring/service/JasperService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Estudos/Jasper/demo-jasper-spring/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Estudos/Jasper/demo-jasper-spring/src/main/resources/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FcrmkWn968n50gRH0JRQh0PbBk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/PROGRAMACAO/dev-ifba-campus-eunapolis/Plataforma Gamificada/plataforma-gamificada-API",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ifba.plataformaGamificada.controller.dto" />
+      <recent name="br.com.alura.forum.controller.dto" />
+      <recent name="br.com.alura.forum.config.security" />
+      <recent name="br.com.alura.forum.controller.form" />
+      <recent name="br.com.alura.forum.modelo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PROGRAMACAO\forum" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ForumApplication">
+    <configuration name="ForumApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ifba.plataformaGamificada.PlataformaGamificadaApplication" />
+      <module name="plataforma-gamificada" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityConfigurations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.config.security.SecurityConfigurations" />
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.config.security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ForumApplication" />
+        <item itemvalue="Application.SecurityConfigurations" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6df2234-2d3e-43f1-9506-b55eac54ea1b" name="Changes" comment="" />
+      <created>1664802381950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664802381950</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
+</project>

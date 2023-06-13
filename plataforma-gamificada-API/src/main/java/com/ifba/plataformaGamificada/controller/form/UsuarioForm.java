@@ -9,8 +9,10 @@ public class UsuarioForm {
     private String senha;
     private String nomeImagem;
     private Long tipoUsuario;
+    private Long nivel;
+    private Long pontuacao;
 
     public Usuario converter() {
-        return new Usuario(nome,email,senha,nomeImagem,tipoUsuario);
+        return new Usuario(nome,email,senha,nomeImagem,tipoUsuario,nivel,pontuacao);
     }
 }

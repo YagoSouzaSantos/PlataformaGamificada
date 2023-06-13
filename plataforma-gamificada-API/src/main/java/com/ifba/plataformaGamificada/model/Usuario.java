@@ -22,6 +22,9 @@ public class Usuario implements UserDetails {
 	private String senha;
 	private String nomeImagem;
 	private Long tipoUsuario;
+	private Long nivel;
+	private long pontuacao;
+
 
 
 	@ManyToMany(fetch = FetchType.EAGER)
@@ -30,12 +33,14 @@ public class Usuario implements UserDetails {
 	public Usuario(){ }
 
 
-	public Usuario(String nome, String email, String senha, String nomeImagem, Long tipoUsuario) {
+	public Usuario(String nome, String email, String senha, String nomeImagem, Long tipoUsuario, Long nivel, Long pontuacao) {
 		this.nome = nome;
 		this.email = email;
 		this.senha = senha;
 		this.nomeImagem = nomeImagem;
 		this.tipoUsuario = tipoUsuario;
+		this.nivel = nivel;
+		this.pontuacao = pontuacao;
 	}
 
 	@Override
